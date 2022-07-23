@@ -37,12 +37,12 @@
             @include breakpoint-up(large){
                 content: "";
                 height: 100%;
-                width: 100%;
+                width: 160.5%;
                 position: absolute;
                 background-image: url("/images/bg-intro-desktop.svg");
-                background-size: 86%;
+                background-size: 122%;
                 background-repeat: no-repeat;
-                background-position: center bottom;
+                background-position: 0% 83%;
             }
         }
 
@@ -80,22 +80,7 @@
             text-align: left;
         }
         
-        h1 {
-            line-height: 1.15;
-            font-weight: 300;
-            font-size: 2.5rem;
-            color: $darkBlue;
-            margin-bottom: 1.5rem;
-
-            @include breakpoint-up(large){
-                font-size: $font-xlg;
-            }
-        }
-
-        p {
-            line-height: 1.5;
-            margin-bottom: 2.25rem;
-        }
+        
 
     }
 }
