@@ -240,6 +240,9 @@ button:hover, .button:hover {
   }
 }
 
+.header {
+  z-index: 1;
+}
 .header.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -348,7 +351,7 @@ button:hover, .button:hover {
 }
 .hero__image {
   position: relative;
-  background-image: url("https://rzilla92.github.io/Easybank-Landing-Page/images/bg-intro-mobile.svg");
+  background-image: url("../images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -378,7 +381,7 @@ button:hover, .button:hover {
     height: 100%;
     width: 160.5%;
     position: absolute;
-    background-image: url("https://rzilla92.github.io/Easybank-Landing-Page/images/bg-intro-desktop.svg");
+    background-image: url("../images/bg-intro-desktop.svg");
     background-size: 122%;
     background-repeat: no-repeat;
     background-position: 0% 83%;
@@ -389,7 +392,7 @@ button:hover, .button:hover {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("https://rzilla92.github.io/Easybank-Landing-Page/images/image-mockups.png");
+  background-image: url("../images/image-mockups.png");
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center bottom;
