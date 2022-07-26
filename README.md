@@ -31,5 +31,8 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
+- The importance of going mobie-first approach instead of diving straight into desktop.
+- Being more organised from using SASS.
+- Using Flexbox and CSS Grid at the same time
 
 
